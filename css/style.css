@@ -63,3 +63,14 @@ footer.page-footer {
     border: 3px solid #fff;
     margin-top: -13%;
 }
+
+body:after {
+    background: linear-gradient(to right, #20c12b 25%, #20c12b 25%, #d7d4d4 25%, #d7d4d4 75%, #c83030 75%);
+    position: absolute;
+    content: '';
+    height: 7px;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding-bottom: 0px !important;
+}
