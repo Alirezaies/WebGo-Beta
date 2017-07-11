@@ -55,13 +55,23 @@ p {
 footer.page-footer {
   margin: 0;
 }
-
-.me{
-    width: 25%;
-    height: 25%;
-    border-radius: 100%;
-    border: 3px solid #fff;
-    margin-top: -13%;
+@media(max-width: 600px) {
+    .me{
+        width: 50%;
+        height: 50%;
+        border-radius: 100%;
+        border: 3px solid #fff;
+        margin-top: -25%;
+    }
+}
+@media (min-width: 600px) {
+    .me{
+        width: 25%;
+        height: 25%;
+        border-radius: 100%;
+        border: 3px solid #fff;
+        margin-top: -13%;
+    }
 }
 
 body:after {
