@@ -1,6 +1,6 @@
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #fff;
 }
 
 p {
@@ -74,7 +74,9 @@ footer.page-footer {
         color: #fff;
     }
 }
-
+body{
+    background-color: #eee;
+}
 body:after {
     background: linear-gradient(to right, #20c12b 25%, #20c12b 25%, #d7d4d4 25%, #d7d4d4 75%, #c83030 75%);
     position: absolute;
