@@ -5,7 +5,6 @@
  *
  * Made By MaterializeCSS.com
  */
-
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -63,6 +62,11 @@ footer.page-footer {
         border: 3px solid #fff;
         margin-top: -25%;
     }
+
+    .arrivederci{
+        font-size: 42px;
+        color: #fff;
+    }
 }
 @media (min-width: 600px) {
     .me{
@@ -71,6 +75,10 @@ footer.page-footer {
         border-radius: 100%;
         border: 3px solid #fff;
         margin-top: -13%;
+    }
+    .arrivederci{
+        font-size: 72px;
+        color: #fff;
     }
 }
 
@@ -87,9 +95,4 @@ body:after {
 
 .social{
     margin-left: 3%;
-}
-
-.arrivederci{
-    font-size: 72px;
-    color: #fff;
 }
