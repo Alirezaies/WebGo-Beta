@@ -97,9 +97,11 @@ body{
 }
 .side-nav{
     color: #fff;
+    z-index: 998;
 }
 .menu-btn{
     left: 24px !important;
+    z-index: 999;
 }
 .side-nav-pic{
     height: 100%;
