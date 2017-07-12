@@ -107,3 +107,11 @@ body{
     height: 100%;
     width: 100%;
 }
+.post-title,
+.post-title:hover,
+.post-title:active{
+    color: #000;
+}
+.post{
+    position: relative;
+}
