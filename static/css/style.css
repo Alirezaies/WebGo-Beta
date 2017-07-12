@@ -95,3 +95,13 @@ body{
 .social{
     margin-left: 3%;
 }
+.side-nav{
+    color: #fff;
+}
+.menu-btn{
+    left: 24px !important;
+}
+.side-nav-pic{
+    height: 100%;
+    width: 100%;
+}
