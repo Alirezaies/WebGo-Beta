@@ -2,7 +2,6 @@ nav ul a,
 nav .brand-logo {
   color: #fff;
 }
-
 p {
   line-height: 2rem;
 }
@@ -44,7 +43,7 @@ p {
   font-size: inherit;
 }
 
-footer.page-footer {
+.page-footer {
   margin: 0;
 }
 @media(max-width: 600px) {
@@ -77,7 +76,11 @@ footer.page-footer {
 body{
     background-color: #eee;
 }
-body:after {
+.ita-parent{
+    position: relative;
+    left: 0;
+}
+.Italia:after {
     background: linear-gradient(to right, #20c12b 25%, #20c12b 25%, #d7d4d4 25%, #d7d4d4 75%, #c83030 75%);
     position: absolute;
     content: '';
