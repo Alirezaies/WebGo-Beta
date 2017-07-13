@@ -60,6 +60,18 @@
                 <li><a href="#">Apr. 2016</a></li>
             </ul>
         </li>
+        <li>
+            <a href="#" data-activates="dropdown1" class="dropdown-button">
+                Subjects
+                <i class="material-icons right">arrow_drop_down</i>
+            </a>
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Gaming</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Music</a></li>
+            </ul>
+        </li>
         <form action="https://searx.me" method="GET" target="_blank" class="search">
             <div class="input-field file-field">
                 <button class="btn waves-effect" type="submit" name="search">
@@ -176,6 +188,7 @@
   <script src="../static/js/materialize.js"></script>
   <script src="../static/js/init.js"></script>
   <script type="text/javascript">
+
   $('.dropdown-button').dropdown({
     inDuration: 300,
     outDuration: 225,
@@ -186,6 +199,7 @@
     alignment: 'left', // Displays dropdown with edge aligned to the left of button
     stopPropagation: false // Stops event propagation
     });
+
   </script>
   </body>
 </html>
