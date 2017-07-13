@@ -118,14 +118,22 @@ body{
 .post-content{
     border-bottom: 2px solid #999;
 }
-
-.share-btn{
-    z-index: 1;
-}
 .toc-wrapper{
     position: relative;
     margin-top: 48px;
 }
 .search{
     margin: 30px;
+}
+.hidden-menu{
+    color: #fff;
+}
+#sidenav-overlay{
+    z-index: 1;
+}
+.mob-nav{
+    z-index: 998;
+}
+.share-btn{
+    z-index: 0;
 }

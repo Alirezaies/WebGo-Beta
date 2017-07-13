@@ -17,6 +17,7 @@
       <nav class="teal z-depth-1" role="navigation">
         <div class="nav-wrapper container">
           <a id="logo-container" href="/" class="brand-logo">WebGo</a>
+
           <ul class="right hide-on-med-and-down">
             <li><a href="#">Blog</a></li>
             <li><a href="#">Gallery</a></li>
@@ -28,6 +29,7 @@
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Projects</a></li>
           </ul>
+          <a href="#" data-activates="nav-mobile" class="button-collapse hidden-menu"><i class="material-icons">menu</i></a>
         </div>
       </nav>
     </div>
@@ -43,9 +45,17 @@
                 <a href="#!email"><span class="white-text email">sadegh@webgo.ir</span></a>
             </div>
         </li>
-        <li><a href="#!"><i class="material-icons">cloud</i>First Link</a></li>
-        <li><a href="#!">Second link</a></li>
-        <li><div class="divider"></div></li>
+        <form action="https://searx.me" method="GET" target="_blank" class="search">
+            <div class="input-field file-field">
+                <button class="btn waves-effect" type="submit" name="search">
+                    <span>Search</span>
+                    <input type="text">
+                </button>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text">
+                </div>
+            </div>
+        </form>
         <li><a href="#!" class="subheader">Subheader</a></li>
         <li><a href="#!" class="wave-effect">Third link with wave</a></li>
         <li>
@@ -72,17 +82,6 @@
                 <li><a href="#">Music</a></li>
             </ul>
         </li>
-        <form action="https://searx.me" method="GET" target="_blank" class="search">
-            <div class="input-field file-field">
-                <button class="btn waves-effect" type="submit" name="search">
-                    <span>Search</span>
-                    <input type="text">
-                </button>
-                <div class="file-path-wrapper">
-                    <input class="file-path validate" type="text">
-                </div>
-            </div>
-        </form>
 
     </ul>
 <!-- Side Nav Btn -->
@@ -146,7 +145,7 @@
                 </div>
                 <div class="col hide-on-small-only m3 l2">
                     <div class="toc-wrapper pin-top" style="top: 0px;">
-<!-- TODO -->
+                        <!-- TODO -->
                     </div>
                 </div>
             </div>
