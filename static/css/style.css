@@ -124,6 +124,7 @@ body{
 }
 .search{
     margin: 30px;
+    margin-bottom: 5px;
 }
 .hidden-menu{
     color: #fff;
@@ -136,4 +137,7 @@ body{
 }
 .share-btn{
     z-index: 0;
+}
+.collapsible{
+    color: #000;
 }

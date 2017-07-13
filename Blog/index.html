@@ -56,32 +56,38 @@
                 </div>
             </div>
         </form>
-        <li><a href="#!" class="subheader">Subheader</a></li>
-        <li><a href="#!" class="wave-effect">Third link with wave</a></li>
-        <li>
-            <a href="#" data-activates="dropdown" class="dropdown-button">
-                Archive
-                <i class="material-icons right">arrow_drop_down</i>
-            </a>
-            <ul id="dropdown" class="dropdown-content">
-                <li><a href="#">Jan. 2016</a></li>
-                <li><a href="#">Feb. 2016</a></li>
-                <li><a href="#">Mar. 2016</a></li>
-                <li><a href="#">Apr. 2016</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="#" data-activates="dropdown1" class="dropdown-button">
-                Subjects
-                <i class="material-icons right">arrow_drop_down</i>
-            </a>
-            <ul id="dropdown1" class="dropdown-content">
-                <li><a href="#">Technology</a></li>
-                <li><a href="#">Gaming</a></li>
-                <li><a href="#">Food</a></li>
-                <li><a href="#">Music</a></li>
-            </ul>
-        </li>
+
+        <ul class="collapsible" data-collapsible="accordion">
+
+            <li>
+                <div class="collapsible-header">
+                    <i class="fa fa-calendar"></i>
+                    Archive
+                </div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="#"><span>Jan. 2017</span></a></li>
+                        <li><a href="#"><span>Feb. 2017</span></a></li>
+                        <li><a href="#"><span>Mar. 2017</span></a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">subject</i>
+                    Subject
+                </div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="#"><span>Technology</span></a></li>
+                        <li><a href="#"><span>Food</span></a></li>
+                        <li><a href="#"><span>Games</span></a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+
 
     </ul>
 <!-- Side Nav Btn -->
@@ -195,8 +201,8 @@
     hover: true, // Activate on hover
     gutter: 0, // Spacing from edge
     belowOrigin: false, // Displays dropdown below the button
-    alignment: 'left', // Displays dropdown with edge aligned to the left of button
-    stopPropagation: false // Stops event propagation
+    alignment: 'right', // Displays dropdown with edge aligned to the left of button
+    stopPropagation: true // Stops event propagation
     });
 
   </script>
