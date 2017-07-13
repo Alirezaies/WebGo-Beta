@@ -144,3 +144,6 @@ body{
 .info{
     color: #009688;
 }
+.pagination li.active{
+    background-color: #009688;
+}
