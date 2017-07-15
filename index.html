@@ -27,7 +27,7 @@
     <meta name="og:image:height" content="200">
     <meta name="og:image:weight" content="200">
     <meta name="og:url" content="https://webgo.ir">
-    <meta name="og;site_name" content="WebGo!">
+    <meta name="og:site_name" content="WebGo!">
   <title>WebGo</title>
 
   <!-- CSS  -->
@@ -44,14 +44,28 @@
           <a id="logo-container" href="/" class="brand-logo">WebGo</a>
 
           <ul class="right hide-on-med-and-down">
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="Blog/">Blog</a></li>
+            <li><a href="Gallery/">Gallery</a></li>
+            <li><a href="#" class="dropdown-button" data-activates="projects">Projects</a></li>
+            <ul id="projects" class="dropdown-content">
+                <li><a href="/persepolis">Persepolis</a></li>
+                <li><a href="/beepaste">Beepaste</a></li>
+                <li class="divider"></li>
+                <li><a href="/myss">MySS</a></li>
+                <li><a href="/cod4host">CoD4Host</a></li>
+            </ul>
           </ul>
 
           <ul id="nav-mobile" class="side-nav">
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="Blog/">Blog</a></li>
+            <li><a href="Gallery">Gallery</a></li>
+            <li><a href="#" class="dropdown-button" data-activates="projects-mob"></a></li>
+            <ul id="projects-mob" class="dropdown-content">
+                <li><a href="/persepolis">Persepolis</a></li>
+                <li><a href="/beepaste">Beepaste</a></li>
+                <li><a href="/myss">MySS</a></li>
+                <li><a href="/cod4host">CoD4Host</a></li>
+            </ul> -->
             <li><a href="#">Projects</a></li>
           </ul>
           <a href="#" data-activates="nav-mobile" class="button-collapse hidden-menu"><i class="material-icons">menu</i></a>
@@ -59,7 +73,7 @@
       </nav>
     </div>
     <!-- Side Nav -->
-    
+
   <div id="index-banner" class="parallax-container">
      <div class="parallax"><img src="static/img/backgrounds/first.png" alt="Unsplashed background img 1"></div>
     </div>
@@ -176,6 +190,19 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="static/js/materialize.js"></script>
   <script src="static/js/init.js"></script>
+  <script type="text/javascript">
+  $('.dropdown-button').dropdown({
+         inDuration: 300,
+         outDuration: 225,
+         constrainWidth: false, // Does not change width of dropdown to that of the activator
+         hover: true, // Activate on hover
+         gutter: 0, // Spacing from edge
+         belowOrigin: false, // Displays dropdown below the button
+         alignment: 'left', // Displays dropdown with edge aligned to the left of button
+         stopPropagation: false // Stops event propagation
+        }
+    );
 
+  </script>
   </body>
 </html>
