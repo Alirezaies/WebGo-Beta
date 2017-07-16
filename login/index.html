@@ -33,15 +33,51 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
   <link href="../static/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="../static/css/fontawesome.min.css" rel="stylesheet" >
   <link href="../static/css/login.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
 </head>
-<!-- Script -->
-  <script src="../static/js/jquery-3.2.1.min.js"></script>
-  <script src="../static/js/materialize.js"></script>
-  <script src="../static/js/init.js"></script>
+<body class="valign-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="">
+                <div class="col s12 m6 offset-m3">
+                    <div class="card card-login teal hoverable">
+                        <div class="container">
+                            <div class="row">
+                                <form class="col s12 login-form" action="index.html" method="post">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix">account_circle</i>
+                                            <input type="text" name="username" class="validate" id="username">
+                                            <label for="username">Username</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix">vpn_key_circle</i>
+                                            <input type="password" name="Password" class="validate" id="password">
+                                            <label for="password">Password</label>
+                                        </div>
+                                        <div class="g-recaptcha col s12 center" data-sitekey="6Lc5TSkUAAAAALNiQNJa6wKLkd3HdwE5qvsqFWDj"></div>
+                                        <button class="btn waves-effect waves-light submit-btn" type="submit" name="submit">Submit
+                                            <i class="material-icons right">send</i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  </body>
+    <!-- Script -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="../static/js/jquery-3.2.1.min.js"></script>
+    <script src="../static/js/materialize.js"></script>
+    <script src="../static/js/init.js"></script>
+
+</body>
 </html>
