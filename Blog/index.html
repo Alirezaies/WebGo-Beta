@@ -59,14 +59,13 @@
           <ul id="nav-mobile" class="side-nav">
             <li><a href="Blog/">Blog</a></li>
             <li><a href="Gallery">Gallery</a></li>
-            <li><a href="#" class="dropdown-button" data-activates="projects-mob"></a></li>
+            <li><a href="#" class="dropdown-button-mob" data-activates="projects-mob">Projects</a></li>
             <ul id="projects-mob" class="dropdown-content">
                 <li><a href="/persepolis">Persepolis</a></li>
                 <li><a href="/beepaste">Beepaste</a></li>
                 <li><a href="/myss">MySS</a></li>
                 <li><a href="/cod4host">CoD4Host</a></li>
-            </ul> -->
-            <li><a href="#">Projects</a></li>
+            </ul>
           </ul>
           <a href="#" data-activates="nav-mobile" class="button-collapse hidden-menu"><i class="material-icons">menu</i></a>
         </div>
@@ -249,6 +248,21 @@
          outDuration: 225,
          constrainWidth: false, // Does not change width of dropdown to that of the activator
          hover: true, // Activate on hover
+         gutter: 0, // Spacing from edge
+         belowOrigin: false, // Displays dropdown below the button
+         alignment: 'left', // Displays dropdown with edge aligned to the left of button
+         stopPropagation: false // Stops event propagation
+        }
+    );
+
+  </script>
+  <script type="text/javascript">
+
+  $('.dropdown-button-mob').dropdown({
+         inDuration: 300,
+         outDuration: 225,
+         constrainWidth: false, // Does not change width of dropdown to that of the activator
+         hover: false, // Activate on hover
          gutter: 0, // Spacing from edge
          belowOrigin: false, // Displays dropdown below the button
          alignment: 'left', // Displays dropdown with edge aligned to the left of button
