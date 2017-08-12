@@ -5,7 +5,7 @@
   height: 100%;
 }
 .tabs{
-  background-color: #f44336;
+  background-color: rgb(244, 67, 54);
 }
 li.tab.col.s3 > a{
   color: #fff;
