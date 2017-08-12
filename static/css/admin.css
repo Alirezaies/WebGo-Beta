@@ -1,0 +1,15 @@
+.content{
+  padding: 0 !important;
+}
+.sub-page{
+  height: 100%;
+}
+.tabs{
+  background-color: #f44336;
+}
+li.tab.col.s3 > a{
+  color: #fff;
+}
+.tabs .indicator{
+  background-color: #fff;
+}

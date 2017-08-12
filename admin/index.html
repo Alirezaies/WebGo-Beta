@@ -36,6 +36,7 @@
         <link href="../static/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="../static/css/fontawesome.min.css" rel="stylesheet" >
         <link href="../static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="../static/css/admin.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
 
     <body>
@@ -49,6 +50,20 @@
         <!-- Side Nav -->
         <!-- Content Goes Here -->
         <div class="row">
+            <div class="row">
+              <div class="col s12 content">
+                <ul id="tabs-swipe-home" class="tabs">
+                  <li class="tab col s3"><a href="#one-swap">Overview</a></li>
+                  <li class="tab col s3"><a href="#two-swap">Content</a></li>
+                  <li class="tab col s3"><a href="#three-swap">Background Images</a></li>
+                  <li class="tab col s3"><a href="#four-swap">Navbar And Footer</a></li>
+                </ul>
+                <div id="one-swap" class="col s12 blue sub-page">One</div>
+                <div id="two-swap" class="col s12 green sub-page">Two</div>
+                <div id="three-swap" class="col s12 red sub-page">Three</div>
+                <div id="four-swap" class="col s12 yellow sub-page">Four</div>
+              </div>
+            </div>
             <div class="fixed-action-btn toolbar">
                 <a class="btn-floating btn-large red">
                     <i class="large material-icons">mode_edit</i>
@@ -66,5 +81,10 @@
         <script src="../static/js/jquery-3.2.1.min.js"></script>
         <script src="../static/js/materialize.js"></script>
         <script src="../static/js/init.js"></script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $('ul.tabs').tabs();
+          });
+        </script>
     </body>
 </html>
