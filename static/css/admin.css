@@ -13,3 +13,6 @@ li.tab.col.s3 > a{
 .tabs .indicator{
   background-color: #fff;
 }
+.av-upload{
+    bottom: 0px !important;
+}
