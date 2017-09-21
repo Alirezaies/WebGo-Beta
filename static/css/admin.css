@@ -8,7 +8,8 @@
 .tabs{
   background-color: rgb(244, 67, 54);
 }
-li.tab.col.s3 > a{
+li.tab.col.s3 > a,
+li.tab.col.s4 > a{
   color: #fff;
 }
 .tabs .indicator{
@@ -16,4 +17,11 @@ li.tab.col.s3 > a{
 }
 .av-upload{
     bottom: 0px !important;
+}
+.tripple{
+  margin: 0;
+  padding: 0 !important;
+}
+.submit{
+  padding-top: 15px; 
 }

@@ -38,6 +38,8 @@
         <link href="../static/css/fontawesome.min.css" rel="stylesheet" >
         <link href="../static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="../static/css/admin.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <script src="//cdn.ckeditor.com/4.7.3/standard/ckeditor.js"></script>
+
     </head>
 
     <body>
@@ -178,9 +180,57 @@
                   </form>
                 </div>
                 <!-- /Overview -->
-                <div id="two-swap" class="col s12 green sub-page">Two</div>
-                <div id="three-swap" class="col s12 red sub-page">Three</div>
-                <div id="four-swap" class="col s12 yellow sub-page">Four</div>
+
+                <!-- Tripple -->
+                <div class="col s12 tripple" id="two-swap">
+                    <ul class="tabs blue icons-edit-bar">
+                      <li class="tab col s4"><a href="#tripple-1">Left</a></li>
+                      <li class="tab col s4"><a href="#tripple-2">Mid</a></li>
+                      <li class="tab col s4"><a href="#tripple-3">Right</a></li>
+                    </ul>
+
+                    <div id="tripple-1" class="col s12 sub-page">
+                        <div class="row">
+                            <form class="col s12" action="#" method="GET">
+                                <div class="row">
+
+                                    <div class="col s12 m4">
+                                        <div class="input-field">
+                                          <i class="material-icons prefix">title</i>
+                                          <input id="icon_prefix_title-1" class="validate" type="text" value="Linux Enthusiast">
+                                          <label for="icon_prefix_title-1">Title</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col s12 m4">
+                                        <div class="input-field">
+                                          <i class="fa fa-font-awesome fa-2x prefix"></i>
+                                          <input id="icon_prefix_title-1" class="validate" type="text" value="fa-linux">
+                                          <label for="icon_prefix_title-1">Icon</label>
+                                        </div>
+                                    </div>
+                                    <div class="col m4 hide-on-small-only center submit">
+                                        <button class="btn waves-effect waves-light red" type="submit" name="action">Submit
+                                          <i class="material-icons right">send</i>
+                                        </button>
+                                    </div>
+                                    <div class="col s12">
+                                        <textarea name="editor-1">
+                                            After More Than 2 Years Of Support And Working On Linux Server, I Still Like To Learn More About Linux, And Work With It. And By The Way, Of Course I Feel Free To Say Linux Rather Than Gnu/Linux.
+                                        </textarea>
+                                            <script type="text/javascript">
+                                                CKEDITOR.replace('editor-1');
+                                            </script>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="tripple-2" class="col s12 yellow sub-page">Four</div>
+                    <div id="tripple-3" class="col s12 yellow sub-page">Four</div>
+                </div>
+                <!-- /Tripple -->
+
               </div>
             </div>
             <div class="fixed-action-btn toolbar">
