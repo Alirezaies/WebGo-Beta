@@ -151,10 +151,11 @@ body{
 .myColor-Light{
   background-color: rgba(125, 0, 0, 1) !important;
 }
-.myColor-Dark-txt{
+.myColor-Dark-txt,
+.prefix.active{
   color: rgba(101, 7, 7, 1) !important;
 }
-.myColor-Light-txt {
+.myColor-Light-txt{
   color: rgba(125, 0, 0, 1) !important;
 }
 .white-txt{
