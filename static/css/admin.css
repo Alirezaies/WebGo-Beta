@@ -26,15 +26,3 @@ li.tab.col.s4 > a{
 .submit{
   padding-top: 15px;
 }
-.tabs{
-  background-color: rgba(101, 7, 7, 1);
-}
-.icons-edit-bar{
-  background-color: rgba(125, 0, 0, 1);
-}
-.myColor{
-  background-color: rgba(101, 7, 7, 1) !important;
-}
-/*.myColor-waller{
-  background-color: rgba(101, 7, 7, 1) !important;
-}*/
