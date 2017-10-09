@@ -26,3 +26,6 @@ li.tab.col.s4 > a{
 .submit{
   padding-top: 15px;
 }
+.icons-edit-bar{
+  overflow: hidden;
+}
