@@ -145,7 +145,8 @@ body{
 .pagination li.active{
     background-color: #009688;
 }
-.myColor-Dark{
+.myColor-Dark,
+ul.myColor-Dark.side-nav{
   background-color: rgba(101, 7, 7, 1) !important;
 }
 .myColor-Light{
@@ -160,4 +161,7 @@ body{
 }
 .white-txt{
   color: #fff !important;
+}
+ul#projects-mob.dropdown-content.myColor-Light > li > a.white-txt:hover{
+  color: black !important;
 }
