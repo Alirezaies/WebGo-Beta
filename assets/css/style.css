@@ -1,0 +1,124 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.my-img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+}
+
+@media (max-width: 400px){
+    legend{
+        text-align: center;
+    }
+}
+
+@media (min-width: 400px) {
+    .my-img{
+        width: 150px;
+        height: 150px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+    }
+}
+
+.social{
+    margin-right: 5px;
+}
+
+.custom-love{
+    font-size: 1.7rem !important;
+    color: red;
+    animation: heart-beat 1s infinite;
+}
+
+.facebook,
+.facebook:hover{
+    color: #3b5998;
+}
+
+.messenger,
+.messenger:hover{
+    color: #44BEC7;
+}
+
+.twitter,
+.twitter:hover{
+    color: #1da1f2;
+}
+
+.instagram,
+.instagram:hover{
+    color: #9b6954;
+}
+
+.github,
+.github:hover{
+    color: #ffffff;
+}
+
+.email,
+.email:hover{
+    color: #ffffff;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    width: 120px;
+    bottom: 100%;
+    left: 50%; 
+    margin-left: -60px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.isDisabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.isDisabled > a {
+    color: currentColor;
+    display: inline-block;  /* For IE11/ MS Edge bug */
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.margin-top-25{
+    margin-top: 25px;
+}
+
+.margin-bottom-50{
+    margin-bottom: 50px !important;
+}
+
+.rose-link{
+    width: 100% !important;
+    height: 100% !important;
+    position: relative;
+    color: #ffffff;
+}
+
+.margin-left-5px{
+    margin-left: 5px;
+}

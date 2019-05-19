@@ -1,219 +1,431 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="theme-color" content="#009688" id="themeColor"/>
-    <meta name="author" content="Sadegh Alirezaie"/>
-    <meta name="language" content="en"/>
-    <meta name="document-type" content="Public"/>
-    <meta name="document-rating" content="General"/>
-    <meta name="resource-type" content="document"/>
-    <meta name="description" content="AlirezaieS!, Sadegh Alirezaie Website And Web Service">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <meta property="place:location:latitude" content="31.329778" />
-    <meta property="place:location:longitude" content="48.731360" />
-    <meta property="business:contact_data:street_address" content="No. 1445, Esfand 2 Street, Shahrake-Naft, Ahvaz, Khouszestan, Iran" />
-    <meta property="business:contact_data:locality" content="Ahvaz" />
-    <meta property="business:contact_data:country_name" content="Iran" />
-    <meta property="business:contact_data:phone_number" content="+98 9167498003" />
-    <meta property="business:contact_data:website" content="https://sadegh.io" />
-    <!-- <meta property="business:contact_data:postal_code" content="61657-" /> -->
-    <meta property="business:contact_data:email" content="sadegh@sadegh.io" />
-    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link rel="icon" type="img/png" href="assets/img/my_logo.png">
 
-    <meta name="og:type" content="website">
-    <meta name="og:image" content="static/img/me/me.jpg">
-    <meta name="og:image:height" content="200">
-    <meta name="og:image:weight" content="200">
-    <meta name="og:url" content="https://sadegh.io">
-    <meta name="og:site_name" content="AlirezaieS!">
-  <title>AlirezaieS</title>
+    <title>Sadegh Alirezaie</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
-  <link href="static/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="static/css/fontawesome.min.css" rel="stylesheet" >
-  <link href="static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- Meshki UI -->
+    <link rel="stylesheet" type="text/css" href="assets/css/meshki.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/meshki-extra-button-colors.min.css">
+    <script type="text/javascript" src="assets/js/meshki.min.js"></script>
+    <!-- /Meshki UI -->
+
+    <!-- Other UI Frameworks -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- /Other UI Frameworks -->
+
+    <!-- Custom UI Stylesheets -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Custom UI Stylesheets -->
+
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <!-- /Custom JavaScript -->
 
 </head>
+
 <body>
-  <div class="navbar-fixed">
-    <nav class="myColor-Dark z-depth-1" role="navigation">
-      <div class="nav-wrapper container">
-        <a id="logo-container" href="/" class="brand-logo">AlirezaieS</a>
 
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#" class="dropdown-button" data-activates="projects">Projects</a></li>
-          <ul id="projects" class="dropdown-content">
-              <li><a href="https://persepolisdm.github.io" class="myColor-Dark-txt" target='_blank'>Persepolis</a></li>
-              <li><a href="https://beepaste.io" class="myColor-Dark-txt" target='_blank'>Beepaste</a></li>
-              <li class="divider" class="myColor-Dark"></li>
-              <li><a href="https://github.io/AlirezaieS/MySQQ" class="myColor-Dark-txt" target='_blank'>MySS</a></li>
-          </ul>
-        </ul>
+    <!-- Sidenav -->
+    <div class="sidenav push">
+        <!-- Note that javascript:void(0) stops your page from jumping to the top -->
+        <a href="javascript:void(0)" class="sidenav-close-button" onclick="meshki.closeSidenav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Request A Service</a>
+        <a href="#">Sign in</a>
+        <a href="#">Sign up</a>
+        <a href="#">Blog</a>
+        <a href="#">Latest Tweets</a>
 
-        <ul id="nav-mobile" class="myColor-Dark side-nav">
-          <!-- <li><a href="Blog/" class="white-txt">Blog</a></li> -->
-          <!-- <li><a href="Gallery" class="white-txt">Gallery</a></li> -->
-          <li><a href="#" class="dropdown-button-mob white-txt" data-activates="projects-mob">Projects</a></li>
-          <ul id="projects-mob" class="dropdown-content myColor-Light">
-              <li><a href="https://persepolisdm.github.io" class="white-txt">Persepolis</a></li>
-              <li><a href="beepaste.io" class="white-txt">Beepaste</a></li>
-              <li><a href="https://github.com/Alirezaies/myss" class="white-txt">MySS</a></li>
-          </ul>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse hidden-menu"><i class="material-icons">menu</i></a>
-      </div>
-    </nav>
-  </div>
-  <!-- Side Nav -->
+        <hr>
 
-  <div id="index-banner" class="parallax-container">
-     <div class="parallax"><img src="static/img/backgrounds/first.png" alt="Unsplashed background img 1"></div>
-    </div>
-  </div>
+        <a href="javascript:void(0)" disabled>Projects:</a>
+        <a href="#">PDM</a>
+        <a href="#">Beepaste</a>
+        <a href="#">MySS</a>
 
+        <hr>
 
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <center>
-          <img src="https://avatars0.githubusercontent.com/u/16784257" class="me"><br>
-          <h2>Sadegh Alirezaie</h2>
-      </center>
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="fa fa-linux fa-2x myColor-Dark-txt" aria-hidden="true"></i></h2>
-            <h5 class="center">Linux Enthusiast</h5>
-
-            <p class="light">
-                After More Than 2 Years Of Support And Working On Linux Server, I Still Like To Learn More About Linux, And Work With It.
-                And By The Way, Of Course I Feel Free To Say Linux Rather Than Gnu/Linux.
-            </p>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="fa fa-laptop fa-2x myColor-Dark-txt"></i></h2>
-            <h5 class="center">Software Engineer</h5>
-
-            <p class="light">
-                I Study Software Engineering At <a href="https://en.wikipedia.org/wiki/Academic_Center_for_Education,_Culture_and_Research" class="myColor-Dark-txt">ACECR</a>.
-                <br>I Really Like To Contribute And Work On <a href="https://opensource.org/" class="myColor-Dark-txt">Open-Source</a> Projects.
-                I Use To Develope Websites And Applications Using Python, And Already Learning C/C++ And Operating Systems.
-            </p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="fa  fa-gamepad fa-2x myColor-Dark-txt"></i></h2>
-            <h5 class="center">Gamer</h5>
-
-            <p class="light">
-                Call of Duty 4 Player, Professional? Yes If I Have A Good ISP (Which Is Impossible In Iran).<br>
-                Video Games Does Not Make Us Violent, Lag Does -Unknown<br>
-                Currently And Forever With Love In Capitains Clan.
-            </p>
-          </div>
-        </div>
-      </div>
+        <a href="javascript:void(0)" disabled>Payment Methods:</a>
+        <a href="https://zarinp.al/@AlirezaieS" target="_blank">1. Zarinpal</a>
+        <a href="https://idpay.ir/AlirezaieS" target="_blank">2. ID Pay</a>
 
     </div>
-  </div>
+    <!-- /Sidenav -->
 
-
-  <div class="parallax-container valign-wrapper">
-    <div class="parallax"><img src="static/img/backgrounds/second.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="ita-parent">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center Italia">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>
-            Benvenuto in Italia
-          </h4>
-          <p class="light">
-              Benvenuto in Italia, The Home Of Pizzas And Spaghettis, The Land Of Beautifulness And The Home Of Mafia!<br>
-              I Love Italy, However I'm Not Living There But I Speak Italian A Little, Also Got Some Cool And Awesome Italian Friends That I Like Them Especially -NN- Cassano, Our Biker Guy!
-          </p>
-        </div>
-      </div>
-
-    </div>
-</div>
-
-  <footer class="page-footer myColor-Dark">
+    <!-- Main Body -->
     <div class="container">
-      <div class="row">
+        <!-- Nav -->
+        <div class="nav">
+            <nav class="fixed">
+                <ul>
+                    <li class="my_logo">
+                        <a href="javascript:void(0)" onclick="meshki.openSidenav()" class="logo">
+                            <i class="fas fa-bars"></i>
+                            Menu
+                        </a>
+                    </li>
 
-        <div class="col l6 s12">
-          <h5 class="white-text">In Code We Trust</h5>
-            <!--
-          <p class="grey-text text-lighten-4">
-              <code>0x88394d70d0f93e7d</code><br>
-              <code>DC86 E133 CB72 03E6 142C  A416 8839 4D70 D0F9 3E7D</code>
-          </p>
-            -->
+                    <li>
+                        <a href="#overview">Overview</a>
+                    </li>
+
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Contact Me</a>
+                    </li>
+
+                </ul>
+            </nav>
         </div>
+        <!-- /Nav -->
 
-        <div class="col l3 s12">
-          <h5 class="white-text">Social</h5>
-            <a class="white-text social" href="https://facebook.com/AlirezaieS"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-            <a class="white-text social" href="https://twitter.com/AlirezaieS"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-            <a class="white-text social" href="https://gitlab.com/AlirezaieS"><i class="fa fa-gitlab fa-2x" aria-hidden="true"></i></a>
-            <a class="white-text social" href="mailto:alirezaie@sadegh.io?Subject=AlirezaieSMail"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+        <!-- Content -->
+        <div class="content">
+            <!-- Logo -->
+            <div class="row">
+                <div class="col text-center">
+
+                    <img src="assets/img/my_logo.png" alt="sadegh.io">
+                </div>
+            </div>
+            <!-- /Logo -->
+
+            <!-- Header -->
+            <div class="row">
+
+                <h4 class="text-center title">
+                    Mohammad Sadegh Alirezaie
+                </h4>
+
+                <h5 class="text-center">
+                    Back-end Web Developer || Linux & Open-Source || Low Level Programming Hobbiest
+                </h5>
+
+            </div>
+            <!-- /Header -->
+
+            <!-- Header Buttons -->
+            <div class="row text-center">
+                <div class="col four">
+                    <button class="rose medium expand" onclick="window.location.href = '#overview'">
+                        Overview
+                    </button>
+                </div>
+
+                <div class="col four">
+                    <button class="rose medium expand" onclick="window.location.href='#services'">
+                        Services
+                    </button>
+                </div>
+
+                <div class="col four">
+                    <button class="rose medium expand" onclick="window.location.href='#contact'">
+                        Contact Me
+                    </button>
+                </div>
+
+            </div>
+            <!-- /Header Buttons -->
+
+            <div class="row">
+                <div id="overview" class="col">
+                    <h3>
+                        Overview
+                    </h3>
+                    <hr />
+                    <fieldset>
+                        <legend>
+                            <img src="https://avatars3.githubusercontent.com/u/16784257?s=460&v=4"
+                                alt="Sadegh Alirezaie" class="my-img">
+                        </legend>
+                        <div class="row">
+                            <div class="six col">
+                                <ul>
+
+                                    <li>
+                                        <span>
+                                            <b>
+                                                Full Name:
+                                            </b>
+                                            Mohammad Sadegh Alirezaie
+                                        </span>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            <b>
+                                                DOB & Age:
+                                            </b>
+                                            Dec 6th, 1996 (23)
+                                        </span>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            <b>
+                                                Birthplace:
+                                            </b>
+                                            Ahvaz, Iran.
+                                        </span>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            <b>
+                                                Location:
+                                            </b>
+                                            Ahvaz, Iran.
+                                        </span>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="six col vertical-line">
+                                <ul>
+
+                                    <li>
+                                        <span>
+                                            <b>
+                                                Programming Languages:
+                                            </b>
+                                            Python, JavaScript, C/C++, PHP
+                                        </span>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            <b>
+                                                Databases:
+                                            </b>
+                                            MySQL, SQL Server, MongoDB, Redis, Neo4j
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <b>
+                                                DevOps Technologies:
+                                            </b>
+                                            Linux, Docker, Kubernetes, Nginx, Git, Jenkins
+                                        </span>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            <b>
+                                                Web Technologies:
+                                            </b>
+                                            AdonisJS, Pyramid, Laravel, Twitter's Bootstrap
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="services" class="col">
+                    <h3>
+                        Services
+                    </h3>
+                    <hr />
+                </div>
+            </div>
+
+            <div class="row margin-bottom-50">
+
+                <div class="four col text-center">
+                    <i class="fas fa-3x fa-code"></i>
+                    <br />
+                    <h5>Web Development</h5>
+                    <span>
+                        Developing Web Based Applications Using Node.Js And Pyramid, However I Know PHP And Laravel,
+                        I'm Not Interested In PHP At All, Giving You Solutions For Your Desired Websites And Web
+                        Applications,
+                        And You'll Be Able To Decide What To Do.
+                    </span>
+                </div>
+
+                <div class="four col text-center">
+                    <i class="fab fa-3x fa-linux"></i>
+                    <h5>
+                        Linux & Open-Source
+                    </h5>
+                    <span>
+                        After Working With Linux For More Than 3 Years, Achieving LPIC-1 And Learning Some Of LPIC-2's
+                        Aspects,
+                        I Still Like To Learn More About Linux, Developing Low Level Applications And Kernel Module
+                        Programming,
+                        I Also Offer Conrtibuting On Open-Source Projects On My Free Times.
+                    </span>
+                </div>
+
+                <div class="four col text-center">
+                    <i class="fas fa-3x fa-unlock-alt"></i>
+                    <h5>Open-Connect VPN Server</h5>
+                    <span>
+                        For Your Convenience Of Unblocking Internet And Surfing Freely As You Want, You Can Request
+                        To Buy A User Account From Me, Or Request For Deploying Your Own VPN Server And Start Your Own
+                        Business
+                        And Sell Or Provate Use Of Your Own VPN Server.
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="six col text-center">
+                    <i class="fab fa-3x fa-telegram"></i>
+                    <h5>MTProxy For Telegram</h5>
+                    <span>
+                        Here's The Best Part! MTProto Proxy For Telegram,
+                        Tired Of Using VPN For Telegram? I Offer You A Super Fast Solution, MTProto Proxy,
+                        You Just Need To Test It Then You'll Get Rid Of Any VPN You Were Using.
+                    </span>
+                </div>
+
+                <div class="six col text-center">
+                    <i class="fas fa-3x fa-globe"></i>
+                    <h5>Remote Co-Operating</h5>
+                    <span>
+                        If You Think We Can Work With Each Other Despite Of Where Ever We Are, Just Contact Me.
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                    <button class="lime medium expand">
+                        Request A Service
+                    </button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="contact" class="col">
+                    <h3>
+                        Contact Me
+                    </h3>
+                    <hr />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <form action="#">
+                        <div class="row">
+
+                            <div class="six col">
+                                <label for="name">Name: </label>
+                                <input id="name" type="text" class="expand" name="name"
+                                    placeholder="Enter Your Name (Optional)">
+                            </div>
+
+                            <div class="six col">
+                                <label for="email">Email(*): </label>
+                                <input id="email" type="text" class="expand" name="email"
+                                    placeholder="Enter Your Email (Required)" required>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <textarea name="message" class="expand"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <input type="checkbox" name="check-email" id="check-email">
+                                <label for="check-email" class="checkbox">
+                                    By cheking this, you accept that the only way to respond to your message is your
+                                    email
+                                    and you confirm you have entered your email correctly.
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <button class="cyan medium expand" type="submit">
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
         </div>
+        <!-- /Content -->
 
-      </div>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="six col">
+                    <p>
+                        Made With
+                        <i class="fa fa-heart custom-love"></i>
+                        By <a href="https://sadegh.io">Mohammad Sadegh Alirezaie</a><br>
+                        Proudly Powered By <a href="https://borderliner.github.io/Meshki/" target="_blank">Meshki</a>
+                    </p>
+                </div>
+
+                <div class="six col">
+                    <a href="https://facebook.com/AlirezaieS" target="_blank" class="facebook tooltip social">
+                        <i class="fab fa-3x fa-facebook-square"></i>
+                        <span class="tooltiptext">Facebook</span>
+                    </a>
+
+                    <a href="https://m.me/AlirezaieS" target="_blank" class="messenger tooltip social">
+                        <i class="fab fa-3x fa-facebook-messenger"></i>
+                        <span class="tooltiptext">Messenger</span>
+                    </a>
+
+                    <a href="https://twitter.com/AlirezaieS" target="_blank" class="twitter tooltip social">
+                        <i class="fab fa-3x fa-twitter-square"></i>
+                        <span class="tooltiptext">Twitter</span>
+                    </a>
+
+                    <a target="_blank" class="instagram tooltip social isDisabled">
+                        <i class="fab fa-3x fa-instagram"></i>
+                        <span class="tooltiptext">Instagram-Disabled</span>
+                    </a>
+
+                    <a href="https://github.com/AlirezaieS" target="_blank" class="github tooltip social">
+                        <i class="fab fa-3x fa-github-square"></i>
+                        <span class="tooltiptext">Github</span>
+                    </a>
+
+                    <a href="mailto:alirezaie@sadegh.io" class="email tooltip social">
+                        <i class="far fa-3x fa-envelope"></i>
+                        <span class="tooltiptext">Email</span>
+                    </a>
+
+                </div>
+            </div>
+        </footer>
+        <!-- /Footer -->
+
     </div>
+    <!-- /Main Body -->
 
-    <div class="footer-copyright myColor-Light">
-      <div class="container">
-       Designed By Sadegh Alirezaie
-      </div>
-    </div>
+</body>
 
-  </footer>
-
-  <!--  Scripts-->
-  <script src="static/js/jquery-3.2.1.min.js"></script>
-  <script src="static/js/materialize.js"></script>
-  <script src="static/js/init.js"></script>
-  <script type="text/javascript">
-  $('.dropdown-button').dropdown({
-         inDuration: 300,
-         outDuration: 225,
-         constrainWidth: false, // Does not change width of dropdown to that of the activator
-         hover: true, // Activate on hover
-         gutter: 0, // Spacing from edge
-         belowOrigin: false, // Displays dropdown below the button
-         alignment: 'left', // Displays dropdown with edge aligned to the left of button
-         stopPropagation: false // Stops event propagation
-        }
-    );
-
-  </script>
-  <script type="text/javascript">
-  $('.dropdown-button-mob').dropdown({ //For Mobile View
-         inDuration: 300,
-         outDuration: 225,
-         constrainWidth: false, // Does not change width of dropdown to that of the activator
-         hover: false, // Activate on hover
-         gutter: 0, // Spacing from edge
-         belowOrigin: false, // Displays dropdown below the button
-         alignment: 'left', // Displays dropdown with edge aligned to the left of button
-         stopPropagation: false // Stops event propagation
-        }
-    );
-
-  </script>
-  </body>
 </html>
