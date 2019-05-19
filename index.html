@@ -36,19 +36,15 @@
     <div class="sidenav push">
         <!-- Note that javascript:void(0) stops your page from jumping to the top -->
         <a href="javascript:void(0)" class="sidenav-close-button" onclick="meshki.closeSidenav()">&times;</a>
-        <a href="#">Home</a>
-        <a href="#">Request A Service</a>
-        <a href="#">Sign in</a>
-        <a href="#">Sign up</a>
-        <a href="#">Blog</a>
-        <a href="#">Latest Tweets</a>
+        <a href="/">Home</a>
+
 
         <hr>
 
         <a href="javascript:void(0)" disabled>Projects:</a>
-        <a href="#">PDM</a>
-        <a href="#">Beepaste</a>
-        <a href="#">MySS</a>
+        <a href="https://persepolisdm.github.io" target="_blank">PDM</a>
+        <a href="https://beepaste.io" target="_blank">Beepaste</a>
+        <a href="https://github.com/AlirezaieS/MySS" target="_blank">MySS</a>
 
         <hr>
 
@@ -309,9 +305,16 @@
 
             <div class="row">
                 <div class="col">
-                    <button class="lime medium expand">
-                        Request A Service
-                    </button>
+
+                    <a class="tooltip expand isDisabled">
+                        <span class="tooltiptext">
+                            Currently Unavailable
+                        </span>
+                        <button class="disabled medium expand">
+                            Request A Service
+                        </button>
+                    </a>
+
                 </div>
             </div>
 
@@ -362,9 +365,14 @@
 
                         <div class="row">
                             <div class="col">
-                                <button class="cyan medium expand" type="submit">
-                                    Submit
-                                </button>
+                                <a class="tooltip expand isDisabled">
+                                    <span class="tooltiptext">
+                                        Currently Unavailable
+                                    </span>
+                                    <button class="disabled medium expand">
+                                        Submit
+                                    </button>
+                                </a>
                             </div>
                         </div>
 
